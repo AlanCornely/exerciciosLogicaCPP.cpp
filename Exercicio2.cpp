@@ -4,14 +4,12 @@ int main (){
 
     int num1;
     printf("digite seu numero: ");
-    scanf("%d, &num1");
+    scanf("%d", &num1);
 
-// a partir daq eu ja n sei mais
+    int par = num1 & 1;
+    printf("par: %d = %d - par", num1, num1, par);
 
-    int par = ( num1 / 2 = 0 and not 1);
-    int impar = ( num1 / 2 = 1 and not 0);
-    
-    printf("seu numero é: %d / 2 = 0", num1, par) 
-
+    int impar = num1 >> 1;
+    printf("impar: %d = %d >> impar", num1, num1, impar);
 return 0;
 }

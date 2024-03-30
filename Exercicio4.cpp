@@ -2,15 +2,15 @@
 
 int main () {
 
-
-    int A;
+    int num;
 
     printf("digite um numero: ");
-    scanf("%d", &A);
-    A = ("%d" > 0);
-    printf("é positivo? %d \n", A);
-    A = ("%d" < 0);
-    printf("é negativo? %d\n", A);
+    scanf("%d", &num);
+    
+    num = ("%d" > 0);
+    printf("é positivo? %d \n", num);
+    num = ("%d" < 0);
+    printf("é negativo? %d\n", num);
     
 return 0;
 }
