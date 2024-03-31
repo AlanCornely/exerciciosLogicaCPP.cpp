@@ -2,7 +2,7 @@
 
 int main () {
 
-    printf("calcular triangulo :)");
+    printf("calcular triangulo :)\n\n");
 
     int num1;
     int num2;
@@ -18,7 +18,7 @@ int main () {
 
     int triangulo;
     triangulo = num1 + num2 > num3;
-    printf(""); // não sei oq colocar para dizer q é um triangulo `\_(-_-)_/´
+    printf("é possivel fazer um triangulo? %d + %d > %d\n", num1, num2, num3); 
 
 return 0;
 }

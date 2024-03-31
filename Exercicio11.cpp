@@ -4,18 +4,17 @@ int main () {
 
     int num1;
     int num2;
-    int num3;
 
     printf("digite o primeiro peso:\n");
     scanf("%d", &num1);
     printf("digite o segundo peso:\n");
     scanf("%d", &num2);
-    printf("digite o terceiro peso:\n");
-    scanf("%d", &num3);
 
-    int media;
-    media = (num1 + num2 + num3) / 3;
-    printf("a média é: (%d + %d + %d) / 3", num1, num2, num3);
+    int a;
+    a = (num1 + num2) /2;
+
+    printf("a área do triangulo é: (%d + %d) / 2", num1, num2);
+    
 
 return 0;
 }
