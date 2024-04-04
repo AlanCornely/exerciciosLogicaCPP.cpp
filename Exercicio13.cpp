@@ -10,7 +10,7 @@ int main () {
     int hps;
     hps = num1 * 3600;
 
-    printf("sua hora em minutos são %d * 3600", num1);
+    printf("sua hora em minutos são %d", hps);
 
 return 0;
 }

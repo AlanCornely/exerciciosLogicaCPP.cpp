@@ -10,11 +10,7 @@ int main () {
     printf("digite o segundo peso:\n");
     scanf("%d", &num2);
 
-    int a;
-    a = (num1 + num2) /2;
-
-    printf("a área do triangulo é: (%d + %d) / 2", num1, num2);
+    printf("a area do triangulo pe %d",(num1 * num2)/2);
     
-
 return 0;
 }
